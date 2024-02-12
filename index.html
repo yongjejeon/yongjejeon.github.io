@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- responsive page, where we can allign the content based on the size of the device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Routine</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">My Day in NYUAD</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#am">AM</a>
+                    <ul>
+                        <li><a href="#room">My Room</a></li>
+                        <li><a href="#morning-class">Morning Class</a></li>
+                        <li><a href="#lunch">Lunch</a></li>
+                    </ul>
+                </li>
+                <li><a href="#pm">PM</a>
+                    <ul>
+                        <li><a href="#afternoon-class">Afternoon Class</a></li>
+                        <li><a href="#gym">Gym</a></li>
+                        <li><a href="#piano">Piano</a></li>
+                        <li><a href="#dinner">Dinner</a></li>
+                        <li><a href="#studying">Self Study</a></li>
+                    </ul>                   
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="slides">
+            <div class="home" id="home">
+                <div class="profile">
+                    <img src="media/samplePic.webp" alt="Profile Picture" width="300" height="300">  
+                    <span class="profile text">Hey, I'm a student at NYUAD. Here's my day in NYUAD</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="slides-video">
+            <div class = "video" id="video">
+                <video width="80%" height="80%" controls audio muted>
+                    <source src="media/30MFF Video - Yongje Jeon.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class = "room" id="room">
+                <h1>My Room</h1>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="room text">This is my room decorated with my favorite things</span>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class ="morning class" id="morning-class">
+                <h1>Morning Class</h1>
+                <h2>8am ~ 11am</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="morning class text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class ="lunch" id="lunch">
+                <h1>Lunch</h1>
+                <h2>11am ~ 12pm</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="lunch text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class ="afternoon class" id="afternoon-class">
+                <h1>Afternoon Class</h1>
+                <h2>1pm ~ 3pm & 5pm ~ 6pm</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="afternoon class text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+
+        <div class="slides">
+            <div class ="gym" id="gym">
+                <h1>Gym</h1>
+                <h2>3pm ~ 4pm</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="gym text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+    
+        <div class="slides">
+            <div class ="piano" id="piano">
+                <h1>Piano</h1>
+                <h2>6pm ~ 7pm</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="piano text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+    
+        <div class="slides">
+            <div class ="dinner" id="dinner">
+                <h1>Dinner</h1>
+                <h2>7pm ~ 8pm</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="dinner text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+        
+        <div class="slides">
+            <div class ="studying" id="studying">
+                <h1>Self Study</h1>
+                <h2>8pm ~ 12am</h2>
+                <img src="media/samplePic.webp" width="300" height="250">
+                <span class="studying text">Aaaaaaaaaa</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

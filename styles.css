@@ -1,0 +1,128 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #ddd;
+    background: linear-gradient(454deg, #a28ee8, #9553ff);
+    scroll-snap-align: start;
+}
+
+.slides-video {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    color: #ddd;
+    background: linear-gradient(454deg, #a28ee8, #9553ff);
+    scroll-snap-align: start;
+    align-items: center;
+    text-align: center;
+    padding-top: 66px;
+}
+
+.slides h1 {
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 66px;
+}
+.slides h2{
+    font-size: 30px;
+    font-weight: 200;
+    float: right;
+}
+.slides img{
+    margin-top: 50px;
+}
+
+.profile img{
+    position: relative;
+    margin-top: 250px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    min-height: 66px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color:#ddd;
+    font-size: 1.75em;
+    font-weight: 600;
+    text-decoration: none;
+}
+header ul{
+    position: relative;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+}
+
+header ul li a{
+    color: #ddd;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li a:hover{
+    background: #ad80f6;
+}
+
+header ul li ul{
+    position: absolute;
+    left:0;
+    width: 200px;
+    display: none;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li ul li{
+    position: relative;
+    width: 100%;
+
+}
+
+
+/* HTML Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+
