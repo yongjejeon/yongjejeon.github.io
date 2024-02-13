@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- responsive page, where we can allign the content based on the size of the device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Routine</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">My Day in NYUAD</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#room">Room</a></li>
+                <li><a href="#class">Classes</a> </li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>  
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="slider-wrapper2">
+            <div class = "profile" id="home">
+                <div class="profile-text">
+                    <h2>Here's my day in NYUAD!</h2>
+                </div>
+                <div class="profile">
+                    <img src="media/me.jpg" alt="Profile Picture">  
+                </div>
+            </div>
+        </div>
+
+        <div class="slides-video">
+            <div class = "video" id="video">
+                <video width="80%" height="80%" controls audio muted>
+                    <source src="media/30MFF Video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+            
+        <div class="slider-wrapper2">
+            <div class = "slider2" id="room">
+                <div class="slider-text">
+                    <h1>My Room</h1>
+                </div>
+                <div class="slider-text3">
+                    <h2>This is my room decorated with Ghibli Studios</h2>
+                </div>
+                <img src="media/Room.jpg" width="550" height="350">
+            </div>
+        </div>
+
+        <div class="slider-wrapper2">
+            <div class = "slider2" id="class">
+                <div class="slider-text">
+                    <h1>Classes</h1>
+                </div>
+                <div class="slider-text3">
+                    <h2>These are my classrooms where I take my Interactive Media courses</h2>
+                </div>
+                <img src="media/Class1.jpg" width="550" height="350">
+                <img src="media/Class2.jpg" width="550" height="350"> 
+            </div>
+        </div>
+
+
+        <div class="slider-wrapper">
+            <div class ="slider" id="hobbies">
+                <img id="slide-1" src="media/Piano1.jpg" width="80%" height="80%">
+                <img id="slide-2" src="media/Piano2.jpg" width="80%" height="80%">
+                <img id="slide-3" src="media/Gym1.jpg" width="80%" height="80%">
+                <img id="slide-4" src="media/Gym2.jpg" width="80%" height="80%">
+                <img id="slide-5" src="media/Game2.jpg" width="80%" height="80%">
+                <img id="slide-6" src="media/Game1.jpg" width="80%" height="80%">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-5"></a>
+                <a href="#slide-6"></a>
+            </div>
+            <div class="slider-text">
+                <h1>Hobbies</h1>
+            </div>
+            <div class="slider-text2">
+                <h2>My hobbies include: practicing the piano, working out in the gym, and playing games. 
+                    I usually work out in the gym around 3 ~ 4 p.m. for about an hour. I practice playing 
+                    the piano about 4 times a week at different times, but usually after dinner. I like playing
+                     games in the weekends with my roommates</h2>
+            </div>   
+        </div> 
+
+    <script src="script.js"></script>
+</body>
+
+</html>
