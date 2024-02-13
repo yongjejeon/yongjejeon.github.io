@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slides {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 50px;
+    color: #ddd;
+    background: linear-gradient(454deg, #a28ee8, #9553ff);
+    scroll-snap-align: start;
+}
+.slides h1 {
+    font-size: 70px;
+    font-weight: 600;
+    text-align: center; /**/
+    margin-top: 66px;
+}
+.room-title{
+    justify-content: center; 
+}
+.slides h2{
+    font-size: 30px;
+    font-weight: 200;
+    float: right;
+}
+.slides img{
+    margin-top: 50px;
+}
+
+
+.class text h3{
+    color: #ddd;
+    position: absolute;
+    display: flex;
+    top: 0;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20%;
+    max-width: 40%;
+    margin-left: 100px;
+}
+
+.slides-video {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    color: #ddd;
+    background: linear-gradient(454deg, #a28ee8, #9553ff);
+    scroll-snap-align: start;
+    align-items: center;
+    text-align: center;
+    padding-top: 66px;
+    z-index: 1;
+}
+
+.slider-wrapper{
+    scroll-snap-type: x mandatory;
+    max-width: 100%;
+    position: relative;
+    scroll-snap-align: start;
+    background: linear-gradient(454deg, #a28ee8, #9553ff);
+}
+
+.slider-wrapper2{
+    max-width: 100%;
+    position: relative;
+    scroll-snap-align: start;
+    background: linear-gradient(454deg, #a28ee8, #9553ff);
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    height: 100vh;
+    margin-left: 60%;
+    margin-right: 66px;
+}
+
+.slider2 {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center; 
+    object-fit: cover;
+    padding-left: 20px;
+}
+
+.profile {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+
+.slider2 img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.slider img{
+    flex: 0 0 100;
+    scroll-snap-align: start;
+    margin-right: 20px;
+    padding-top: 40%;
+    width:100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.slider-text h1{
+    color: #ddd;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 0;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 66px;
+    transform: translateX(-50%);
+}
+
+.slider-text2 h2{
+    color: #ddd;
+    position: absolute;
+    display: flex;
+    top: 0;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20%;
+    max-width: 40%;
+    margin-left: 100px;
+}
+
+.slider-text3 h2{
+    color: #ddd;
+    position: absolute;
+    display: flex;
+    top: 0;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.profile-text h2{
+    color: #ddd;
+    position: absolute;
+    display: flex;
+    top: 0;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 380px;
+    left: 65%;
+    transform: translateX(-50%);
+}
+
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 75%;
+    z-index: 1;
+    padding-bottom: 66px;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+
+
+
+.profile img {
+    position: relative;
+    margin-top: 200px;
+    width: 400px; /* Set the width of the image */
+    height: 400px; /* Set the height of the image */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden; /* Hides any overflow beyond the circular shape */
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    min-height: 66px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+header .logo{
+    color:#ddd;
+    font-size: 1.75em;
+    font-weight: 600;
+    text-decoration: none;
+}
+header ul{
+    position: relative;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+}
+
+header ul li a{
+    color: #ddd;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li a:hover{
+    background: #ad80f6;
+}
+
+header ul li ul{
+    position: absolute;
+    left:0;
+    width: 200px;
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
